@@ -1,5 +1,5 @@
 <?php
-namespace Larapack\ConfigWriter\Tests;
+namespace Ideatica\ConfigWriter\Tests;
 
 use Illuminate\Support\Arr;
 use Illuminate\Container\Container;
