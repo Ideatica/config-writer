@@ -80,9 +80,12 @@ class Repository extends BaseRepository
 
     protected function getFile()
     {
+        /*
         $file = $this->getCoreFile($this->name);
-
         return base_path('config'.DIRECTORY_SEPARATOR.$file.'.php');
+        */
+        $module = $this->getCoreFile($this->name);
+        return base_path('modules'.DIRECTORY_SEPARATOR.$module.DIRECTORY_SEPARATOR.'Config'.DIRECTORY_SEPARATOR.'config.php');
     }
 
     protected function prepareContent($from, $validate = true)
