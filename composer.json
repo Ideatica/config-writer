@@ -1,12 +1,12 @@
 {
-    "name": "larapack/config-writer",
+    "name": "ideatica/config-writer",
     "description": "Save changes to the configuration file in script.",
-    "keywords": ["package", "laravel", "larapack", "config", "writer", "save"],
+    "keywords": ["package", "laravel", "ideatica", "config", "writer", "save"],
     "license": "MIT",
     "type": "package",
     "autoload": {
         "psr-4": {
-            "Larapack\\ConfigWriter\\": "src/"
+            "Ideatica\\ConfigWriter\\": "src/"
         }
     },
     "require-dev": {
