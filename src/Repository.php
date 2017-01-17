@@ -1,6 +1,6 @@
 <?php
 
-namespace Larapack\ConfigWriter;
+namespace Ideatica\ConfigWriter;
 
 use Illuminate\Config\Repository as BaseRepository;
 use Illuminate\Filesystem\Filesystem;
