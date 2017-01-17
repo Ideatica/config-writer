@@ -3,7 +3,7 @@ namespace Larapack\ConfigWriter\Tests;
 
 use Illuminate\Support\Arr;
 use Illuminate\Container\Container;
-use Larapack\ConfigWriter\Repository;
+use Ideatica\ConfigWriter\Repository;
 use PHPUnit_Framework_TestCase;
 
 class ReadmeExampleTest extends PHPUnit_Framework_TestCase
