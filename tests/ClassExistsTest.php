@@ -1,8 +1,8 @@
 <?php
-namespace Larapack\ConfigWriter\Tests;
+namespace Ideatica\ConfigWriter\Tests;
 
 use PHPUnit_Framework_TestCase;
-use Larapack\ConfigWriter;
+use Ideatica\ConfigWriter;
 
 class ClassExistsTest extends PHPUnit_Framework_TestCase
 {
